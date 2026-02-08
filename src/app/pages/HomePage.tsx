@@ -73,7 +73,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             playsInline
             poster="https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=2071&auto=format&fit=crop"
           >
-            <source src={"/hero-video.mp4"} type="video/mp4" />
+            <source src={heroVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           {/* Overlay */}
