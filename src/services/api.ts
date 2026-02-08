@@ -2,7 +2,9 @@ import axios, { AxiosInstance, AxiosResponse } from 'axios';
 import { User, Product, Order, Service, Course } from '../app/types';
 
 // API Base URL
-const API_URL = "https://artvpp-lake.vercel.app";
+const API_URL = import.meta.env.PROD
+    ? "https://artvpp-lake.vercel.app"
+    : "http://localhost:4000";
 
 // Create Axios instance
 const api: AxiosInstance = axios.create({
