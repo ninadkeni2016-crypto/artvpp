@@ -3,7 +3,7 @@ import { User, Product, Order, Service, Course } from '../app/types';
 
 // API Base URL
 const API_URL = import.meta.env.PROD
-    ? "https://artvpp-lake.vercel.app"
+    ? "https://artvpp-lake.vercel.app/api"
     : "http://localhost:4000";
 
 // Create Axios instance
