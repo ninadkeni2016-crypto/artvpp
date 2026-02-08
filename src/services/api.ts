@@ -2,7 +2,7 @@ import axios, { AxiosInstance, AxiosResponse } from 'axios';
 import { User, Product, Order, Service, Course } from '../app/types';
 
 // API Base URL
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "https://artvpp-lake.vercel.app";
 
 // Create Axios instance
 const api: AxiosInstance = axios.create({
